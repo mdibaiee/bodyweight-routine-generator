@@ -1,0 +1,112 @@
+body, html {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+
+  background: #eff4f3;
+  color: #2b4162;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Secular One;
+}
+
+form label, form input {
+  display: block;
+
+  margin: 0.5rem auto;
+}
+
+form > div {
+  margin-top: 2rem;
+}
+
+form input, form button, form select {
+  border-radius: 100rem;
+  padding: 0.4rem 1rem;
+  /*border: 1px solid #385f71;*/
+  border: none;
+}
+
+form input, form select {
+  padding-right: 0.5rem;
+}
+
+form select {
+  background: white;
+}
+
+.select-wrap {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 100rem;
+}
+.select-wrap::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15px;
+  height: 100%;
+  background: white;
+}
+
+form button {
+  background: #385f71;
+  color: white;
+}
+
+.fa-heart {
+  color: rgb(250, 100, 100);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 5rem;
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  width: 50%;
+  min-width: 400px;
+  max-width: 900px;
+  list-style: none;
+
+  margin: 1rem auto;
+  padding: 0;
+}
+
+ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  margin: 0;
+}
+
+ul li div {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+ul li span {
+  font-size: 10px;
+  margin-right: 1rem;
+}
+
+ul li p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}

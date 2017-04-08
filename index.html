@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bodyweight Routine Generator</title>
+  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='fa.css'>
+
+  <script src='fa.js'></script>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Secular+One'>
+</head>
+<body>
+  <header>
+    <h1>Bodyweight Routine Generator</h1>
+  </header>
+
+  <form>
+    <div>
+      <label for="difficulty">Difficulty</label>
+      <div class='select-wrap'>
+        <select id='difficulty' value='1'>
+          <option value='0'>Easy</option>
+          <option value='1'>Medium</option>
+          <option value='2'>Hard</option>
+          <option value='3'>You're gonna die</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label for="count">How many exercises?</label>
+      <input id='count' type='number' min='0' value='5'>
+    </div>
+
+    <div>
+      <button>Let's do it! <i class='fa fa-hand-rock-o'></i></button>
+    </div>
+  </form>
+
+  <main>
+    <ul></ul>
+  </main>
+
+  <footer>
+    <p>Made with <i class='fa fa-heart'></i> | Source available on 
+      <a href="https://github.com/bodyweight-routine-generator" alt='GitHub'><i class='fa fa-github' alt='GitHub icon'></i></a>
+    </p>
+  </footer>
+
+  <script src='main.js'></script>
+</body>
+</html>
